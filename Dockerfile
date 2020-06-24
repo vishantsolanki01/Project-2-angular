@@ -8,7 +8,7 @@ RUN npm install
 COPY . .
 run yarn build
 # CMD ["npm","start"]
-#EXPOSE 3000
+EXPOSE 3000
 #CMD ["npm","start"]
 
 #stage 2
