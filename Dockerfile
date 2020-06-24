@@ -11,7 +11,7 @@ run yarn build
 #EXPOSE 3000
 #CMD ["npm","start"]
 
-stage 2
+#stage 2
 
 FROM nginx
 COPY --from=builder /code/build/ /usr/share/nginx/html
