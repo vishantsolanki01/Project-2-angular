@@ -35,7 +35,7 @@ pipeline {
 	    echo 'Production Environment'
          }
       }
-   }
+   
    post { 
         always { 
             sh 'docker context use default'
